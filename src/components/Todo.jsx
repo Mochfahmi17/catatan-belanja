@@ -64,9 +64,7 @@ const Todo = () => {
 
   return (
     <>
-      <div
-        className={`bg-cart flex min-h-screen w-full flex-col place-self-center rounded-xl bg-cover bg-center bg-no-repeat p-5 md:min-h-[550px] md:w-11/12 md:max-w-md md:p-6`}
-      >
+      <div className="flex min-h-screen w-full flex-col place-self-center rounded-xl bg-[url('assets/belanja.jpg')] bg-cover bg-center bg-no-repeat p-5 md:min-h-[550px] md:w-11/12 md:max-w-md md:p-6">
         {/* Title Start */}
         <div className="mx-auto mt-5 flex items-center gap-2 md:mx-0 md:mt-7">
           <img className="w-8" src={dataIcon.todoIcon} alt="" />
